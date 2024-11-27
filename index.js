@@ -6,7 +6,7 @@ app.use(cors())
 
 
 app.listen(8080, () => {
-  console.log("Server started on port 8080");
+  console.log("Server Started on port 8080");
 });
 
 app.get("/", (req, res) => {
